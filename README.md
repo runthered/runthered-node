@@ -43,9 +43,9 @@ httpGatewayApi.pushMessage(
 		}
 	}
 	);
-	```
+```
 ### Query a delivery receipt for a message id:
-	```js
+```js
 	httpGatewayApi.queryDlr(
 	{
 	id: msgId
@@ -62,7 +62,7 @@ httpGatewayApi.pushMessage(
 		}
 	}
 	);
-	```
+```
 	
 ## Push API
 
