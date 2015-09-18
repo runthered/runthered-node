@@ -1,6 +1,6 @@
 {
   "name": "runthered",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library for calling Run The Red's APIs from node.",
   "main": "index.js",
   "directories": {

@@ -1,4 +1,4 @@
-var push_api = require('/home/finn/workspace/wrapper_libs/runthered_node/lib/push_api.js');
+var runthered = require('runthered');
 // the credentials for the API
 var username = "testuser";
 var password = "testuser";
@@ -12,7 +12,7 @@ var pushId = 231434;
 
 var msgId = "55fb4a1ae138230a7217ab1d";
 
-pushApi = new push_api(username, password, serviceKey);
+pushApi = new runthered.PushApi(username, password, serviceKey);
 
 pushApi.pushMessage(
 	{

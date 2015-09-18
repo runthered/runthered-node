@@ -1,4 +1,4 @@
-var http_gateway = require('/home/finn/workspace/wrapper_libs/runthered_node/lib/http_gateway.js');
+var runthered = require('runthered');
 // the credentials for the API
 var username = "snoop7";
 var password = "snoop7";
@@ -11,7 +11,7 @@ var from = "2059";
 
 var msgId = "55fb8506e138230a7217ab3e";
 
-httpGatewayApi = new http_gateway(username, password, serviceKey);
+httpGatewayApi = new runthered.HttpGateway(username, password, serviceKey);
 
 httpGatewayApi.pushMessage(
 	{
