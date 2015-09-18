@@ -1,0 +1,35 @@
+{
+  "name": "runthered",
+  "version": "1.0.1",
+  "description": "A library for calling Run The Red's APIs from node.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runthered/runthered-node.git"
+  },
+  "dependencies": {
+    "request": ">=2.0.0"
+  },
+  "devDependencies": {
+    "chai": ">=3.0.0",
+    "nock": ">=2.0.0"
+  },
+  "keywords": [
+    "api",
+    "rtr",
+    "runthered"
+  ],
+  "author": "Finn Colman <finn.colman@runthered.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runthered/runthered-node/issues"
+  },
+  "homepage": "https://github.com/runthered/runthered-node#readme"
+}
